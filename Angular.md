@@ -6,11 +6,11 @@ AEM Enersol is an independent integrated consultancy services, from upstream to 
 
 Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop.
 
-### Guideline
+## Guideline
 
-You will be given **3 hour** to complete the test. You may use whatever resource you like as long as you are using the below **Tech stack**.
+You will be given **3 hour** to complete the test. You may use whatever resource you like as long as you are following the below **Tech stack**.
 
-### Tech stack
+## Tech stack
    - [Angular 5](https://angular.io/)
    - [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
    - Any charting library([D3](https://d3js.org/), [Plot.ly](https://plot.ly/), [AmCharts](https://www.amcharts.com/)) to visualize some data
@@ -19,12 +19,28 @@ You will be given **3 hour** to complete the test. You may use whatever resource
    - [NPM](https://www.npmjs.com/) for package management
    - [Git](https://git-scm.com/) for source code version control
 
-### Your task
+## Your task
 
-By using the above tech stack, create a dashboard interface that consist of **two**(2) main module (Sign In and Overview). The module must consume the API listed in **API section** on each modules. The finished code need to be store in your [Github](http://github.com) repository and make it public. Then you will required to give the repository link at the end of this test.
+By using the above tech stack, create a dashboard interface that consist of **two**(2) main module (Sign In and Dashboard). The module must consume the API listed in **API section** on each modules. The finished code need to be store/put in your [Github](http://github.com) repository and make it public. Then you will required to give the repository link at the end of this test.
 
-##### Module 1 - Sign In
+### Sign In
+
+This module is for authenticate user before allowing them to access the **Dashboard** module. Implement the **Sign In** module interface in Angular using HTML and Sass.
+
+#### Interface
 
 [![Sign Interface](assets/img/signin.png)]()
 
-This module is for authenticate user before allowing them to access the **Overview** module. Implement the **Sign In** module interface in Angular using HTML and Sass.
+#### API
+
+Endpoint
+```
+POST: http://someserver.com/api/v1/auth
+```
+Model
+```
+{
+    username: String,
+    password: String
+}
+ ```
