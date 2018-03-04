@@ -25,6 +25,6 @@ By using the above tech stack, create a dashboard interface that consist of **tw
 
 ##### Module 1 - Sign In
 
-[![Sign Interface](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/company/C8657ed93c04c4a7d9c6c65f7bd9d3131/projects/Daa32f88a5555b2d7d7270b700dd74813/pages/9cbd78de38b34c098039792771c342f0/image/9cbd78de38b34c098039792771c342f0.png)]()
+[![Sign Interface](assets/img/signin.png)]()
 
 This module is for authenticate user before allowing them to access the **Overview** module. Implement the **Sign In** module interface in Angular using HTML and Sass.
