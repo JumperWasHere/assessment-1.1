@@ -8,13 +8,12 @@ Angular is a platform that makes it easy to build applications with the web. Ang
 
 ## Guideline
 
-You will be given **3 hour** to complete the test. You may use whatever resource you like as long as you are following the below **Tech stack**.
+You will be given **2 hour** to complete the test. You may use whatever resources you like as long as you are following the below **Tech stack**.
 
 ## Tech stack
    - [Angular 5](https://angular.io/)
-   - [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+   - Any frontend framework([Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Foundation](http://foundation.zurb.com/), [Semantic-UI](http://semantic-ui.com/))
    - Any charting library([D3](https://d3js.org/), [Plot.ly](https://plot.ly/), [AmCharts](https://www.amcharts.com/)) to visualize some data
-   - Typescript
    - Stylesheet - [Sass](https://sass-lang.com/)
    - [NPM](https://www.npmjs.com/) for package management
    - [Git](https://git-scm.com/) for source code version control
@@ -25,7 +24,7 @@ By using the above tech stack, create a dashboard interface that consist of **tw
 
 ### Sign In
 
-This module is for authenticate user before allowing them to access the **Dashboard** module. Implement the **Sign In** module interface in Angular using HTML and Sass.
+This module is for authenticate user before allowing them to access the **Dashboard** module. Construct the **Sign In** module interface in Angular using HTML and Sass.
 
 #### Interface
 
@@ -35,12 +34,47 @@ This module is for authenticate user before allowing them to access the **Dashbo
 
 Endpoint
 ```
-POST: http://someserver.com/api/v1/auth
+POST: http://52.76.7.57:3000/api/auth/login
 ```
 Model
 ```
 {
-    username: String,
+    email: String,
     password: String
+}
+ ```
+Response
+```
+{
+  "success": Boolean,
+  "token": String
+}
+ ```
+
+### Dashboard
+
+This module is for displaying simple overview in form of chart and table/grid. Make sure that this module only accessible when user is authenticated. Any attempt to access this module without authentication should be redirect to **Sign In** module.
+
+#### Interface
+
+[![Sign Interface](assets/img/dashboard.png)]()
+
+#### API
+
+Endpoint
+```
+GET: http://52.76.7.57:3000/api/dashboard
+```
+Model
+```
+none
+```
+Response
+```
+{
+  "success": Boolean
+  "chartDonut": Array,
+  "chartbar": Array,
+  "tableUsers": Array
 }
  ```
