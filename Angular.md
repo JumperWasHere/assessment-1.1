@@ -24,7 +24,9 @@ By using the above tech stack, create a dashboard interface that consist of **tw
 
 ### Sign In
 
-This module is for authenticate user before allowing them to access the **Dashboard** module. Construct the **Sign In** module interface in Angular using HTML and Sass.
+This module is for authenticate user before allowing them to access the **Dashboard** module. Construct the **Sign In** module interface in Angular using HTML and Sass. Use the below credential to authenticate the user:
+  - email: **admin@mail.com**
+  - password: **admin123**
 
 #### Interface
 
@@ -39,8 +41,8 @@ POST: http://52.76.7.57:3000/api/auth/login
 Model
 ```
 {
-    email: String,
-    password: String
+  email: String,
+  password: String
 }
  ```
 Response
