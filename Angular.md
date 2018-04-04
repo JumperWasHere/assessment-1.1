@@ -11,8 +11,8 @@ Angular is a platform that makes it easy to build applications with the web. Ang
 You will be given **2 hour** to complete the test. You may use whatever resources you like as long as you are following the below **Tech stack**.
 
 ## Tech stack
-   - [Angular 5](https://angular.io/)
-   - Any frontend framework([Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Foundation](http://foundation.zurb.com/), [Semantic-UI](http://semantic-ui.com/))
+   - [Angular 5](https://angular.io/) & [Angular CLI](https://cli.angular.io/)
+   - Any UI framework([Foundation](http://foundation.zurb.com/), [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Semantic-UI](http://semantic-ui.com/))
    - Any charting library([D3](https://d3js.org/), [Plot.ly](https://plot.ly/), [AmCharts](https://www.amcharts.com/)) to visualize some data
    - Stylesheet - [Sass](https://sass-lang.com/)
    - [NPM](https://www.npmjs.com/) for package management
@@ -24,11 +24,11 @@ By using the above tech stack, create a dashboard interface that consist of **tw
 
 ### Sign In
 
-This module is for authenticate user before allowing them to access the **Dashboard** module. Construct the **Sign In** module interface in Angular using HTML and Sass. Use the below credential to authenticate the user:
+This module is for authenticate user before allowing them to access the **Dashboard** module. Code the **Sign In** module User Interface in Angular using HTML and Sass. Use the below credential to authenticate the user:
   - email: **admin@mail.com**
   - password: **admin123**
 
-#### Interface
+#### User Interface
 
 [![Sign Interface](assets/img/signin.png)]()
 
