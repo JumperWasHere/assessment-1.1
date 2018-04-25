@@ -8,7 +8,7 @@ Angular is a platform that makes it easy to build applications with the web. Ang
 
 ## Guideline
 
-You will be given **2 hour** to complete the test. You may use whatever resources you like as long as you are following the below **Tech stack**.
+You will be given **1 Day** to complete the test. You may use whatever resources you like as long as you are following the below **Tech stack**.
 
 ## Tech stack
    - [Angular 5](https://angular.io/) & [Angular CLI](https://cli.angular.io/)
