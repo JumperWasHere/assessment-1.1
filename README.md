@@ -13,11 +13,11 @@ You need to clone this repository and you may use whatever resources you like as
 ## Do and Don't
    - Do clone this repository
    - Don't use any existing angular component, example [ng-select](https://ng-select.github.io/ng-select)
-   - Do create your own tagging input implementation
+   - Do create your own tagging input implementation and place it under shared folder.
 
 ## Your task
 
-Create a custom **tagging input** component that will work for both **reactive form** and **model**. The **tagging input** styling need to be the same as bootstrap form in term of color, width and height. You can use any custom select plugin such as [Selectize](https://github.com/selectize/selectize.js) or [Select2](https://github.com/select2/select2). At the end of this task, you will required to give your repository link.
+Create a custom **tagging input** component that will work for both **reactive form** and **model**. The **tagging input** styling need to be the same as **bootstrap form input** in term of color, width and height. You can use any custom select plugin such as [Selectize](https://github.com/selectize/selectize.js) or [Select2](https://github.com/select2/select2). At the end of this task, you will required to give your repository link.
 
 ## Interface
 
