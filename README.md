@@ -14,6 +14,7 @@ You need to clone this repository and you may use whatever resources you like as
    - Do clone this repository
    - Don't use any existing angular component, example [ng-select](https://ng-select.github.io/ng-select)
    - Do create your own tagging input implementation and place it under shared folder.
+   - Do send us link to your finished code
 
 ## Your task
 
