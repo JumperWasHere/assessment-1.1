@@ -30,7 +30,7 @@ This module is for authenticate user before allowing them to access the **Dashbo
 
 #### Interface
 
-[![Sign Interface](assets/img/signin.png)]()
+[![Sign Interface](src/assets/img/signin.png)]()
 
 #### API
 
@@ -59,7 +59,7 @@ This module is for displaying simple overview in form of chart and table/grid. M
 
 #### Interface
 
-[![Sign Interface](assets/img/dashboard.png)]()
+[![Sign Interface](src/assets/img/dashboard.png)]()
 
 #### API
 
