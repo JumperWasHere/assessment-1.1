@@ -8,13 +8,12 @@ Angular is a platform that makes it easy to build applications with the web. Ang
 
 ## Guideline
 
-You will be given **1 Day** to complete the test. You may use whatever resources you like as long as you are following the below **Tech stack**.
+You will be given **3 Day** to complete the test. You may use whatever resources you like as long as you are following the below **Tech stack**.
 
 ## Tech stack
-   - [Angular 5](https://angular.io/) & [Angular CLI](https://cli.angular.io/)
-   - Any UI framework([Foundation](http://foundation.zurb.com/), [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Semantic-UI](http://semantic-ui.com/))
+   - [Angular 2+](https://angular.io/) & [Angular CLI](https://cli.angular.io/)
+   - Any Css framework([Foundation](http://foundation.zurb.com/), [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Semantic-UI](http://semantic-ui.com/))
    - Any charting library([D3](https://d3js.org/), [Plot.ly](https://plot.ly/), [AmCharts](https://www.amcharts.com/)) to visualize some data
-   - Stylesheet - [Sass](https://sass-lang.com/)
    - [NPM](https://www.npmjs.com/) for package management
    - [Git](https://git-scm.com/) for source code version control
 
@@ -25,8 +24,10 @@ By using the above tech stack, create a dashboard interface that consist of **tw
 ### Sign In
 
 This module is for authenticate user before allowing them to access the **Dashboard** module. Code the **Sign In** module User Interface in Angular using HTML and Sass. Use the below credential to authenticate the user:
-  - email: **admin@mail.com**
-  - password: **admin123**
+  - email: **user@aemenersol.com**
+  - password: **Test@123**
+
+Please note that all API endpoint except `/api/account/login` is protected and you need to send **Bearer Token** header when requesting other API endpoint.
 
 #### User Interface
 
@@ -36,22 +37,19 @@ This module is for authenticate user before allowing them to access the **Dashbo
 
 Endpoint
 ```
-POST: http://52.76.7.57:3000/api/auth/login
+POST: http://test-demo.aem-enersol.com/api/account/login
 ```
 Model
 ```
 {
-  email: String,
+  username: String,
   password: String
 }
  ```
 Response
 ```
-{
-  "success": Boolean,
-  "token": String
-}
- ```
+Bearer Token
+```
 
 ### Dashboard
 
@@ -65,7 +63,7 @@ This module is for displaying simple overview in form of chart and table/grid. M
 
 Endpoint
 ```
-GET: http://52.76.7.57:3000/api/dashboard
+GET: http://test-demo.aem-enersol.com/api/dashboard
 ```
 Model
 ```
@@ -74,7 +72,6 @@ none
 Response
 ```
 {
-  "success": Boolean
   "chartDonut": Array,
   "chartbar": Array,
   "tableUsers": Array
