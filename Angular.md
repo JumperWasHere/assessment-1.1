@@ -21,13 +21,13 @@ You will be given **3 Day** to complete the test. You may use whatever resources
 
 By using the above tech stack, create a dashboard interface that consist of **two**(2) main module (Sign In and Dashboard). The module must consume the API listed in **API section** on each modules. The finished code need to be store/put in your [Github](http://github.com) repository and make it public. Then you will required to give the repository link at the end of this test.
 
+Please note that when **Sign In** process is success, server will response a **Bearer Token**. The token need to be send on each API call. See this [link](https://stackoverflow.com/questions/52468071/how-to-send-jwt-token-as-authorization-header-in-angular-6?answertab=votes#tab-top) for more info.
+
 ### Sign In
 
 This module is for authenticate user before allowing them to access the **Dashboard** module. Code the **Sign In** module User Interface in Angular using HTML and Sass. Use the below credential to authenticate the user:
   - email: **user@aemenersol.com**
   - password: **Test@123**
-
-Please note that all API endpoint except `/api/account/login` is protected and you need to send **Bearer Token** header when requesting other API endpoint.
 
 #### User Interface
 
