@@ -37,7 +37,7 @@ This module is for authenticate user before allowing them to access the **Dashbo
 
 Endpoint
 ```
-POST: http://test-demo.aem-enersol.com/api/account/login
+POST: http://test-demo.aemenersol.com/api/account/login
 ```
 Model
 ```
@@ -63,7 +63,7 @@ This module is for displaying simple overview in form of chart and table/grid. M
 
 Endpoint
 ```
-GET: http://test-demo.aem-enersol.com/api/dashboard
+GET: http://test-demo.aemenersol.com/api/dashboard
 ```
 Model
 ```
