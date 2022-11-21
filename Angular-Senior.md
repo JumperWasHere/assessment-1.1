@@ -27,6 +27,13 @@ Please note that when **Sign In** process is success, server will response a **B
    - Replicate the UI as per design (Layout and Color Scheme)
    - Validate the form (eg: Prevent user to submit if form not complete/error)
    - Validate the routing (eg : cannot by pass page without authenticated)
+   - Open web socket connection to upload file and pop out notification if completed (requires BE to create new API for this)
+   - Authorization (BE to update the token of which paths the user can access)
+   - Create unit tests using any Testing Framework e.g. Jasmine for the methods that you use in this assessment:
+  1. Login
+  2. Acquire Token
+  3. Call API
+
 
 
 ### Sign In
