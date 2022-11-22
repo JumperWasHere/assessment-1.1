@@ -11,8 +11,8 @@ Angular is a platform that makes it easy to build applications with the web. Ang
 You will be given **3 Day** to complete the test. You may use whatever resources you like as long as you are following the below **Tech stack**.
 
 ## Tech stack
-   - [Angular 2+](https://angular.io/) & [Angular CLI](https://cli.angular.io/)
-   - Any Css framework([Foundation](http://foundation.zurb.com/), [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Semantic-UI](http://semantic-ui.com/))
+   - [Angular 14](https://angular.io/) & [Angular CLI](https://cli.angular.io/)
+   - Any CSS framework([Foundation](http://foundation.zurb.com/), [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/), [Semantic-UI](http://semantic-ui.com/))
    - Any charting library([D3](https://d3js.org/), [Plot.ly](https://plot.ly/), [AmCharts](https://www.amcharts.com/)) to visualize some data
    - [NPM](https://www.npmjs.com/) for package management
    - [Git](https://git-scm.com/) for source code version control
