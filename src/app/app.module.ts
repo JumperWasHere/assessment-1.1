@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRouting } from './app.routing';
 import { AppPage } from './app.page';
+import { Select2Component } from './select2/select2.component';
 
 @NgModule({
   declarations: [
-    AppPage
+    AppPage,
+    Select2Component
   ],
   imports: [
     BrowserModule,
